@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B9F92081BAC1C99000CF1C9 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9F92071BAC1C99000CF1C9 /* test.mp4 */; settings = {ASSET_TAGS = (); }; };
 		6B9F922A1BAFC8F5000CF1C9 /* UISlider+Middle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F92291BAFC8F5000CF1C9 /* UISlider+Middle.m */; settings = {ASSET_TAGS = (); }; };
 		6BF532FC1BABBBF90043C596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF532FB1BABBBF90043C596 /* main.m */; };
 		6BF532FF1BABBBF90043C596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF532FE1BABBBF90043C596 /* AppDelegate.m */; };
@@ -58,7 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B9F92071BAC1C99000CF1C9 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		6B9F92281BAFC8F5000CF1C9 /* UISlider+Middle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+Middle.h"; sourceTree = "<group>"; };
 		6B9F92291BAFC8F5000CF1C9 /* UISlider+Middle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+Middle.m"; sourceTree = "<group>"; };
 		6BF532F71BABBBF90043C596 /* QSVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,7 +198,6 @@
 		6BF5333A1BABD62B0043C596 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				6B9F92071BAC1C99000CF1C9 /* test.mp4 */,
 				6BF5333B1BABD62B0043C596 /* backward_disable@2x.png */,
 				6BF5333C1BABD62B0043C596 /* backward_nor@2x.png */,
 				6BF5333D1BABD62B0043C596 /* fast_backward_disable@2x.png */,
@@ -333,7 +330,6 @@
 				6BF533051BABBBF90043C596 /* Main.storyboard in Resources */,
 				6BF533551BABD62B0043C596 /* pause_disable@2x.png in Resources */,
 				6BF5334D1BABD62B0043C596 /* backward_disable@2x.png in Resources */,
-				6B9F92081BAC1C99000CF1C9 /* test.mp4 in Resources */,
 				6BF5334F1BABD62B0043C596 /* fast_backward_disable@2x.png in Resources */,
 				6BF5335A1BABD62B0043C596 /* video_brightness_bg@2x.png in Resources */,
 				6BF533391BABBFD50043C596 /* QSPlayerViewController.xib in Resources */,

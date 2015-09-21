@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "QSPlayerViewController.h"
-#import "AFHTTPClient.h"
-#import "AFJSONRequestOperation.h"
 
 @interface ViewController ()
 
