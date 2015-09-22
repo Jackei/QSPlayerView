@@ -39,7 +39,6 @@ static const char * MiddleView;
     
         progressView.progressTintColor = [UIColor orangeColor];
         progressView.trackTintColor = [UIColor blackColor];
-        self.maximumTrackTintColor = [UIColor clearColor];
         
         progressView.progress = middleValue;
         

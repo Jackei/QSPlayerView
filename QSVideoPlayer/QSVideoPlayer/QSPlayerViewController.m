@@ -113,13 +113,6 @@ static void * playbackLikelyToKeepUp = &playbackLikelyToKeepUp;
     screenWidth = [[UIScreen mainScreen] bounds].size.width;
     screenHeight = [[UIScreen mainScreen] bounds].size.height;
     
-//    self.bufferView = [[UIView alloc] init];
-//    self.bufferView.frame = CGRectMake(0, 13, 1, 5);
-//    self.bufferView.backgroundColor = [UIColor orangeColor];
-//    self.bufferView.layer.cornerRadius = 5;
-//    [self.progressView addSubview:self.bufferView];
-//    [self.footerView bringSubviewToFront:self.progressView];
-    
     if (screenHeight > screenWidth)
     {
         CGFloat tmp = screenWidth;

@@ -89,7 +89,9 @@
                                 </label>
                                 <slider opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wfg-en-38B">
                                     <rect key="frame" x="168" y="10" width="354" height="31"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <gestureRecognizers/>
+                                    <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="slidingEnded:" destination="-1" eventType="touchUpInside" id="ebr-71-byU"/>
                                         <action selector="slidingEnded:" destination="-1" eventType="touchUpOutside" id="oQJ-jN-SJL"/>
