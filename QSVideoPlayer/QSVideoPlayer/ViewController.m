@@ -22,14 +22,14 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//    NSURL *url = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"mp4"];
-//    QSPlayerViewController *playerVC = [[QSPlayerViewController alloc] initWithLocalMediaURL:url];
-//    playerVC.mediaTitle = @"老男孩";
-//    [self presentViewController:playerVC animated:YES completion:nil];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"mp4"];
+    QSPlayerViewController *playerVC = [[QSPlayerViewController alloc] initWithLocalMediaURL:url];
+    playerVC.mediaTitle = @"老男孩";
+    [self presentViewController:playerVC animated:YES completion:nil];
     
-    NSURL *url = [NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"];
-    QSPlayerViewController *vc = [[QSPlayerViewController alloc] initWithHTTPLiveStreamingMediaURL:url];
-    [self presentViewController:vc animated:YES completion:nil];
+//    NSURL *url = [NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"];
+//    QSPlayerViewController *vc = [[QSPlayerViewController alloc] initWithHTTPLiveStreamingMediaURL:url];
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

@@ -646,6 +646,7 @@ static void * playbackLikelyToKeepUp = &playbackLikelyToKeepUp;
     [self removeObserver:self forKeyPath:@"playerItem.status" context:playerItemStatusContext];
     [self removeObserver:self forKeyPath:@"playing" context:playerPlayingContext];
     [self removeObserver:self forKeyPath:@"playerItem.loadedTimeRanges" context:loadedTimeRanges];
+    [self removeObserver:self forKeyPath:@"playerItem.playbackLikelyToKeepUp" context:playbackLikelyToKeepUp];
     
     [self.player removeTimeObserver:self.timeObserver];
     self.timeObserver = nil;
